@@ -46,8 +46,8 @@ const Index = () => {
           <div>
             <h3 className="text-lg text-foreground mb-2">Data Storage</h3>
             <p>
-              All data you save in Favly — including product names, prices, images, descriptions, and URLs — is 
-              stored <strong className="text-foreground">locally on your device only</strong> using SQLite. This data never leaves your device 
+              All data you save in Favly is 
+              stored <strong className="text-foreground">locally on your device only</strong>. This data never leaves your device 
               and is not accessible to us or any third party.
             </p>
           </div>
@@ -122,18 +122,18 @@ const Index = () => {
           Have a question, found a bug, or want to suggest a feature? We'd love to hear from you.
         </p>
         <a
-          href="mailto:support@example.com"
+          href="mailto:favly.app@outlook.com"
           className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-primary-foreground transition-opacity hover:opacity-90"
           style={{ background: "var(--gradient-primary)" }}
         >
           <Mail className="w-4 h-4" />
-          <span className="font-medium">support@example.com</span>
+          <span className="font-medium">favly.app@outlook.com</span>
         </a>
       </section>
 
       {/* Footer */}
       <footer className="max-w-3xl mx-auto px-6 py-10 border-t border-border text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Favly. All rights reserved.
+        © {new Date().getFullYear()} Emelie Petersson
       </footer>
     </div>
   );
