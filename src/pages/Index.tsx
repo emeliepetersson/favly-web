@@ -1,4 +1,5 @@
-import { Heart, Mail, Shield, Smartphone, ExternalLink } from "lucide-react";
+import { Mail, Shield, Smartphone } from "lucide-react";
+import appIcon from "@/assets/icon.png";
 
 const Index = () => {
   return (
@@ -18,9 +19,7 @@ const Index = () => {
 
       {/* Hero */}
       <header className="max-w-3xl mx-auto px-6 py-20 text-center">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl mb-6" style={{ background: "var(--gradient-primary)" }}>
-          <Heart className="w-8 h-8 text-primary-foreground" />
-        </div>
+        <img src={appIcon} alt="Favly app icon" className="w-20 h-20 rounded-2xl shadow-lg mb-6" />
         <h1 className="text-4xl md:text-5xl mb-4 text-foreground">Favly</h1>
         <p className="text-lg text-muted-foreground max-w-md mx-auto">
           Your favorite shopping hub. Collect, compare and decide — all in one place.
