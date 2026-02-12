@@ -7,7 +7,7 @@ const Index = () => {
       {/* Nav */}
       <nav className="sticky top-0 z-10 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="text-xl font-bold tracking-tight" style={{ fontFamily: "'DM Serif Display', serif" }}>
+          <span className="text-xl font-bold tracking-tight">
             Favly
           </span>
           <div className="flex gap-6 text-sm text-muted-foreground">
@@ -19,7 +19,7 @@ const Index = () => {
 
       {/* Hero */}
       <header className="max-w-3xl mx-auto px-6 py-20 text-center">
-        <img src={appIcon} alt="Favly app icon" className="w-20 h-20 rounded-2xl shadow-lg mb-6" />
+        <img src={appIcon} alt="Favly app icon" className="w-20 h-20 rounded-2xl shadow-lg mb-6 mx-auto" />
         <h1 className="text-4xl md:text-5xl mb-4 text-foreground">Favly</h1>
         <p className="text-lg text-muted-foreground max-w-md mx-auto">
           Your favorite shopping hub. Collect, compare and decide — all in one place.
