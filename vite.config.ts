@@ -8,7 +8,7 @@ const basePath = isGHPages ? "/favly-web/" : "/";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/favly-web/',
+  base: basePath,
   server: {
     host: "::",
     port: 8080,
